@@ -1,0 +1,68 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #d65f5f;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  #myForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #033001;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form inputs and selects */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: rgb(195, 40, 40);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the checkbox */
+  #subscribe {
+    margin-left: 5px;
+  }
+  
+  /* Style the form errors (if any) */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Add some spacing to the form */
+  br {
+    clear: both;
+  }
+  
