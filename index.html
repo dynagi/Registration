@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form Example</title>
+</head>
+
+<body>
+
+  <form id="myForm">
+    <label for="name">First name:</label>
+    <input type="text" id="First_name" name="First_name" required><br><br>
+    <label for="name">Last name:</label>
+    <input type="text" id="Last_name" name="Last_name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="Contact">Contact no:</label>
+    <input type="number" id="Contact" name="Contact" required><br><br>
+    <label for="Password">Password:</label>
+    <input type="Password" id="Password" name="Password" required><br><br>
+    <label for="Conform_Password">Conform_Password:</label>
+    <input type="Password" id="Conform_Password" name="Conform_Password" required><br><br>
+
+
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="Select">Select</option>
+        <option value="America">America</option>
+        <option value="Australia">Australia</option>
+        <option value="Bhutan">Bhutan</option>
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="Ukrane">Ukrane</option>
+        <option value="Yuganda">Yuganda</option>
+        <option value="Zimbabwe">Zimbabwe</option>
+    </select><br><br>
+
+    <label for="state">State</label>
+    <select name="state" id="state">
+        <option value="Select">Select</option>
+        <option value="Assam">Assam</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Maharastra">Maharastra</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Punjab">Punjab</option>
+    </select>
+   
+    <label for="city">City:</label>
+    <select id="city" name="city">
+      <option value="Select">Select</option>
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Jaipur">Jaipur</option>
+      <option value="Bhilwara">Bhilwara</option>
+      <option value="Ludhiana">Ludhiana</option>
+      <option value="Amritsar">Amritsar</option>
+      <option value="Bhilwara">Faridabad</option>
+    </select><br><br>
+
+    <label for="subscribe">Check Box:</label>
+    <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
