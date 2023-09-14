@@ -9,6 +9,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     var Contact = document.getElementById('Contact').value;
     var Password = document.getElementById('Password').value;
     var Conform_Password = document.getElementById('Conform_Password').value;
+    var Country = document.getElementById('Country').value;
+    var State = document.getElementById('State').value;
+    var City = document.getElementById('City').value;
+
 
     console.log("First name: " + First_name);
     console.log("Last name: " + Last_name);
@@ -17,6 +21,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     console.log("City: " + city);
     console.log("Contact: " + Contact);
     console.log("Password: " + Password);
+    console.log("Country: " + Country);
+    console.log("State: " + State);
+    console.log("City: " + City);
+
 
     if(Password !== Conform_Password) {
         alert("Password is not the same as Conform Password");
@@ -32,5 +40,8 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         document.getElementById('Contact').value = "";
         document.getElementById('Password').value = "";
         document.getElementById('Conform_Password').value = "";
+        document.getElementById('Country').value = "";
+        document.getElementById('State').value = "";
+        document.getElementById('City').value = "";
     }
 });
